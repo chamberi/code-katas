@@ -1,4 +1,15 @@
 # code-katas
+## DEC 18:
+This latest is for the proper parethetics weekend assignment. 
+It built a list using the Queue class, which leveraged previous work of the DLL class.
+The proper parethetics module evaluated strings to determine if their was proper use of parentheses within the string.
+The tests on the assigment were successful:
+
+src/test_parenthetics.py              5      0   100%
+
+
+
+
 This is the Code Wars work for the Snow Day assignment, day 5 of Python 401.
 
 Fizz Buzz
