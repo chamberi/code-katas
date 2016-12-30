@@ -146,3 +146,20 @@ def rake_garden(garden):
 """ By User bdarksider."""
 # Not sure I understand this one, thus I'm picking this one to look at more.
 ```
+
+Sum of Nth Terms
+- Module: sum_of_nth_terms.py
+- Tests: test_sum_terms.py
+- Link: http://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/train/python
+
+Tox produced 37 of 37, with Python 2 and 3 results:
+src/test_sum_terms.py                 5      0   100%
+src/test_sum_terms.py                 5      0   100%
+
+```python
+def series_sum(n):
+    return '{:.2f}'.format(sum(1.0/(3 * i + 1) for i in range(n)))
+
+"""By User MMMAAANNN and 3 others."""
+# Interesting that they got it down to effectively 1 line.
+```
