@@ -13,7 +13,7 @@ FRACTION_TABLE = [
 
 
 @pytest.mark.parametrize("iterable, result", FRACTION_TABLE)
-def test_proper_parenthetics(iterable, result):
+def test_sum_of_nth_terms_module(iterable, result):
     """Test different arguments of the sum of nth terms module."""
     from sum_of_nth_terms import series_sum
     assert series_sum(iterable) == result
