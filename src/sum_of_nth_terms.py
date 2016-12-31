@@ -2,7 +2,7 @@
 
 
 def series_sum(listed):
-    """The funcion adds the fractions together, returning a float with 2 precision points."""
+    """The funcion adds the fractions together, returning the string representation a float with 2 precision points."""
     added = 0
     for i in range(listed):
         added += 1.0 / (1 + i * 3)
